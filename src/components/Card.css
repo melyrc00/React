@@ -1,0 +1,19 @@
+.cont {display: flex;
+flex-direction: row;}
+
+
+.cardcont {
+flex-direction: row;
+width: 45%;
+margin: 20px auto 20px;
+
+}
+
+.card { display: flex;
+flex-direction: column;
+background-color: dimgray;
+padding: 20px;
+border-radius: 10px;
+}
+
+.card h2, .card h3 {font-weight: 600;}
